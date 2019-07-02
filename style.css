@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300|VT323&display=swap');
+/*@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');*/
+
+body{
+	background-color: #e1e1e1;
+	font-family: "Roboto", sans-serif;
+	color: #333333;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#title{
+	font-family: "VT323", monospace;
+	font-weight: normal;
+	margin: 5px;
+}
+#settings{
+	margin: 5px;
+
+}
+.settings-button{
+	border: 1px solid #d5d5d5;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 5px;
+	cursor: pointer;
+}
+.settings-button:hover{
+	border: 1px solid rgba(0,0,0,0);
+	box-shadow: 0 1px 6px 0 rgba(32,32,32,0.2);
+}
+#restartButton{
+	background-color: #fff;
+	color: #1d1d1d;
+}
+#classicButton{
+	background-color: #1d1d1d;
+	color: #fff;
+}
+#stepsButton{
+	background-color: #c1c1c1;
+	color: #fff;
+}
+#rainbowButton{
+	/*background-color: #99b433;*/
+}
+
+#sketch{
+	width: 480px;
+	height: 480px;
+	margin: 5px;
+	background-color: #fff;
+	display: grid;
+}
+.sketch-grid{
+	border: 1px solid #eee;
+	/*background-color: #000*/;
+	filter: brightness(100%);
+}
